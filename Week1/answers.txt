@@ -1,0 +1,6 @@
+2.1  :6.23607
+2.2  :1.895494267033980940
+3    :0.726
+4    :As h decreases value of y increases 
+5    :RK4 solution is very close to exact solution
+6    :1,2,-1
