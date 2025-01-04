@@ -1,13 +1,13 @@
 set terminal pngcairo size 800, 600
-set output 'plot_1_-5.png'
+set output 'plot_1_-2.png'
 
 set title 'Potential Field due to Two Charges'
 set xlabel 'Y'
 set ylabel 'X'
 set cblabel 'Potential'
 
-# Define a diverging color palette
-set palette defined (0 "yellow", 0.5 "red", 1 "blue")
+# Define a smooth color palette resembling the example
+set palette rgbformulae 21,22,23
 
 # Set the range of the color bar to highlight the field
 set cbrange [-1:1]  # Adjust based on your data; [-1:1] is an example.
